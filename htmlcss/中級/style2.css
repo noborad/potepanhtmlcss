@@ -1,0 +1,575 @@
+* {
+    box-sizing: border-box;
+    word-break: break-all;
+}
+
+
+header {
+    padding: 20px 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 50px;
+    align-items: center;
+}
+
+.header-logo-pc {
+    width: auto;
+    height: 20px;
+}
+
+.header-navi {
+   display: flex;
+}
+
+.navi {
+    display: block;
+    text-align: center;
+    margin: 0px 10px;
+    font-weight: bold;
+}
+
+.navi:hover {
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+.navi-link {
+    text-decoration: none;
+    color: black;
+}
+
+.navi-course span {
+    color: #f79314;
+}
+
+.counseling-button {
+    text-align: center;
+    border-radius: 20px;
+    
+}
+
+.counseling-button:hover {
+    opacity: 0.5;
+    transition: 0.5s;
+}
+
+.counseling-button-link {
+    width: 170px;
+    height: 40px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    background-color: #f79314;
+    border-radius: 20px;
+}
+
+.counseling-button-link p {
+    margin: 0px;
+    padding-top: 10px;
+}
+
+.navi span {
+    display: block;
+}
+
+.navi span:firsr-child {
+    font-size: 14px;
+}
+
+.navi span:last-child {
+    font-size: 10px;
+}
+
+.counseling-button {
+    font-size: 12px;
+}
+
+.counseling-button-link {
+    display: block;
+    height: 40px;
+   
+}
+
+.top {
+    background-image: url("https://camp.potepan.com/wp-content/themes/potepancamp/assets/images/course-hero-pc.png");
+    width: 100%;
+}
+
+.top-title {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 70px 190px 71px;
+}
+
+.content-box {
+    padding-top: 75px;
+    background-color: #fcfaf5;
+    padding-bottom: 50px;
+}
+
+.content-width {
+    max-width: 1140px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.content-title {
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 30px;
+}
+
+.border-box {
+    display: flex;
+    justify-content: center;
+}
+
+.border {
+    width: 50px;
+    border-bottom: 5px solid #f79314;
+}
+
+.detail {
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.detail span {
+    display: block;
+}
+
+.detail-about {
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 70px;
+    padding: 30px 20px;
+}
+
+.under-line {
+    text-align: center;
+    padding: 5px 0px;
+}
+
+.under-line span {
+    font-size: 20px;
+    font-weight: bold;
+    background: linear-gradient(transparent 70%, yellow 70%);
+}
+
+.point {
+    font-size: 30px;
+    text-align: center;
+}
+
+.point-contents {
+    display: flex;
+    justify-content: space-around;
+}
+
+.point-content {
+    width: 31%;
+}
+
+.point-content img {
+    width: 100%;
+}
+
+.point-title {
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 5px 0px;
+    margin: 10px 0px;
+    border-radius: 20px;
+}
+
+.point-detail {
+    text-align: center;
+    padding: 10px 0px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.course-content {
+    width: 48.5%;
+    margin-right: 30px;
+    border: 1px solid #7070701A;
+    border-radius: 30px;
+}
+
+.course-content-title {
+    background-color: #F79314;
+    color: white;
+    padding: 20px 0px;
+    border-top: 1px solid #7070701;
+    border-radius: 30px;
+}
+
+.course-content-title div{
+    text-align: center;
+}
+
+.money-box {
+    text-align: center;
+    padding: 20px;
+}
+
+.money {
+    display: inline-block;
+    font-size: 30px;
+}
+
+.course-explain {
+    padding-bottom: 30px;
+}
+
+.tax {
+    display: inline-block;
+}
+
+.course-detail {
+    margin: 0px;
+}
+
+.course-box {
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.uneven {
+    background-color: #fff8ea;
+    
+    text-align: center;
+}
+
+.even {
+    
+    text-align: center;
+}
+
+.course-detail-box {
+    align-items: center;
+    padding: 10px 0px;
+}
+
+.kikan span {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.study span {
+    color: #F79214;
+}
+
+.support span {
+    color: #F79214;
+}
+
+.more-detail a {
+    color: #F79214;
+    text-decoration: none;
+}
+
+.skill-cut-box {
+    margin-top: 30px;
+    padding: 10px 30px;
+    display: flex;
+    background-color: white;
+}
+
+.skill-cut-box img {
+    padding-top: 20px;
+    padding-right: 10px;
+}
+
+.orange-color span {
+    color: #F79214;
+}
+
+.plan-box {
+    background-color: #fcfaf5;
+    margin: 60px 30px 0px;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.plan-subtitle {
+    text-align: center;
+    font-weight: bold;
+}
+
+.plan-title {
+    text-align: center;
+    color: #f79214;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0 auto;
+}
+
+.point-box {
+    margin-top: 40px;
+    padding: 16px 20px 20px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.plan-mini {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 15px 8px;
+}
+
+.point-list {
+    color: #f79214;
+}
+
+.point-list span {
+    color: black;
+}
+
+.plan-detail {
+    margin-top: 20px;
+    padding: 4px 26px;
+    display: inline-block;
+    background-color: #fcfaf5;
+    border-radius: 10px;
+    color: #f79214;
+}
+
+.plan-detail-box p {
+    margin: 0;
+}
+
+.plan-selection {
+    background-color: #fff;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.study-contents {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.study-content {
+    width: 48%;
+    margin: 10px 10px;
+}
+
+.study-image img {
+    width: 100%;
+}
+
+.study-text-title {
+    font-weight: bold;
+}
+
+.voice-box {
+    padding-bottom:  50px;
+}
+
+.voices {
+    display: flex;
+    padding-top: 20px;
+}
+
+.voice {
+    width: calc(100% / 3);
+    padding: 0px 20px;
+    
+}
+
+.hover-scale {
+    width: 100%;
+    height: 80%;
+    border-radius: 10px;
+}
+
+.overflow {
+    overflow: hidden;
+}
+
+.voice-text {
+    
+}
+
+.voice-link {
+    text-decoration: none;
+    color: black;
+    
+}
+
+.voice-link img {
+    
+}
+
+.voice-link img:hover {
+    transform: scale(1.2,1.2);
+    border-radius: 10px;
+}
+
+.voice-link:hover {
+    
+    color: #f79214;
+    transition: 0.5s;
+}
+
+.voice-link {
+    
+}
+
+#pageTop {
+    margin: 0;
+    float: right;
+    text-align: center;
+}
+
+#pageTop a {
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    margin-right: 100px;
+    background-color: white;
+    border-radius: 100%;
+}
+
+.fa {
+    
+}
+
+footer {
+    padding: 30px;
+    background-color: #f79314;
+    color: white;
+}
+
+.footer {
+    padding-bottom: 30px;
+}
+
+.footer-contents {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 30px;
+}
+
+.footer-title-link {
+    max-width: 280px;
+    display: inline-block;
+}
+
+.footer-title-link img {
+    width: 100%;
+    height: auto;
+}
+
+.company-name {
+    padding: 10px 0px;
+}
+
+.company-address {
+    margin-bottom: 20px;
+}
+
+.sns-images {
+    display: flex;
+    height: 40px;
+}
+
+.sns-image {
+    height: 40px;
+}
+
+.sns-image-link {
+    display: inline-block;
+    height: 40px;
+    padding-right: 10px;
+}
+
+.sns-image-link img {
+    height: 40px;
+}
+
+.footer-list {
+    list-style: none;
+}
+
+.footer-list li {
+    padding-bottom: 10px;
+}
+
+.footer-list a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-list span {
+    font-weight: bold;
+}
+
+.potepanda {
+    position: relative;
+    width: 150px;
+    height: 220px;
+}
+
+.potepanda img {
+    position: absolute;
+    width: 100px;
+    height: auto;
+    bottom: 0px;
+    right: 0px;
+}
+
+/* responsive */
+
+#humberger {
+  position: relative;
+  height: 24px;
+  width: 24px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+#humberger div {
+  position: absolute;
+  left: 0;
+  height: 4px;
+  width: 24px;
+  background-color: #444;
+  border-radius: 2px;
+  display: inline-block;
+  box-sizing: border-box;
+}
+
+#humberger div:nth-of-type(1) {
+  top: 0;
+}
+#humberger div:nth-of-type(2) {
+  top: 10px;
+}
+#humberger div:nth-of-type(3) {
+  bottom: 0;
+}
+
+#humberger {
+    display: none;
+}
+
+.footer-responsive {
+    display: none;
+}
